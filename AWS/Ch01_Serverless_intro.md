@@ -17,7 +17,7 @@ Data Center
 - 이에 대응하기 위하여 서버를 전문 관리하는 data center를 설치하여 일반적인 회사가 내진설계, 냉각장치, 보안 등을 관리하기에는 어렵기에 IDC(Internet Data Center)라는 개념을 도입함.  
   
 ![image](https://t1.daumcdn.net/cfile/tistory/99CD88395A9F521C1A)
-> IaaS, PaaS, SaaS의 개념도
+> 그림: IaaS, PaaS, SaaS의 개념도
 
 IaaS(Infrastructure as a Service)
 --
@@ -68,6 +68,7 @@ Monolithic
 --
 
 ![image](https://t1.daumcdn.net/cfile/tistory/991F51505B640F321F)
+> 그림: 모놀리식 개념도
 
 - 개념
     - 모놀리식 아키텍처란, 마이크로 서비스의 각광에 따라 마이크로서비스가 아닌 전통의 아키텍처를 지칭하는 의미로 생긴 단어.
@@ -118,7 +119,7 @@ MSA (Micro Service Architecture)
 
 FaaS == Serverless?
 --
-- FaaS가 Serverless라고 하기에는 어려우며, FaaS ⊂ Serverless라고 해야 맞다.
+- FaaS가 Serverless라고 하기에는 어려우며, __FaaS ⊂ Serverless__ 라고 해야 맞다.
 
  서버리스를 사용기에 적합한 시스템
  --
@@ -130,6 +131,8 @@ FaaS == Serverless?
 - 6. 센서값에 따라 반응하는 IoT
 - 7. 트래픽을 예측할 수 없는 이벤트성 API들
 
-> Reference  
-추가적인 개념들: https://velopert.com/3543, https://2dubbing.tistory.com/36  
+ Reference
+ --
+
+> 추가적인 개념들: https://velopert.com/3543, https://2dubbing.tistory.com/36  
 > 모놀리식과 마이크로 서비스 아키텍처: https://brunch.co.kr/@yesjun/2

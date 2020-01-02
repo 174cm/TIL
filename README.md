@@ -14,6 +14,9 @@ Rule
 분류
 --
 
+### AWS
+- [1. AWS 서버리스 - 등장배경 및 소개](https://github.com/174cm/TIL/blob/master/AWS/Ch01_Serverless_intro.md)
+
 ### Algorithm
 
 - [1-1. 알고리즘의 분석](https://github.com/174cm/TIL/blob/master/Algorithm/Chap01_Time_complexity.md)
