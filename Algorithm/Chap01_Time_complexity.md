@@ -204,7 +204,115 @@ void selectionSort(int arr[], int n)
     - Average : O(n²)
     - Best    : O(n²)
 
+퀵 정렬(quick sort)
+--
+![image](https://t1.daumcdn.net/cfile/tistory/996DAB335ACC1BDF16) 
+- '찰스 앤터니 리처드 호어(Charles Antony Richard Hoare)'가 개발한 정렬 알고리즘
+- 퀵 정렬은 __불안정 정렬__ 에 속하며, 다른 원소와의 비교만으로 정렬을 수행하는 __비교 정렬__ 에 속한다.
+- __분할 정복__ 알고리즘의 하나로, 평균적으로 __매우 빠른 수행 속도__ 를 자랑하는 정렬 방법
+- 분할 정복(divide & conquer)
+    - 문제를 작은 2개의 문제로 분리하고 각각을 해결한 다음, 결과를 모아서 원래의 문제를 해결하는 전략
+    - 분할 정복 방법은 대부분 순환 호출을 이용하여 구현
+
+퀵 정렬(quick sort) 알고리즘의 구체적인 개념
+--
+- 하나의 리스트를 피벗(pivot)을 기준으로 두 개의 비균등한 크기로 분할하고 분할된 부분 리스트를 정렬한 다음, 두 개의 정렬된 부분 리스트를 합하여 전체가 정렬된 리스트가 되게 하는 방법
+- 퀵 정렬은 다음의 단계로 이루어 진다.
+    - 분할(Divide): 입력 배열을 피벗을 기준으로 비균등하게 2개의 부분 배열(피벗을 중심으로 왼쪽: 피벗보다 작은 요소들, 오른쪽: 피벗보다 큰 요소들)로 분할.
+    - 정복(Conquer): 부분 배열을 정렬. 부분 배열의 크기가 충분히 작지 않으면 __순환 호출__ 을 이용하여 다시 분할 정복 방법을 적용.
+    - 결합(Combine): 정렬된 부분 배열들을 하나의 배열에 합병.
+    - 순환 호출이 한번 진행될 때마다 최소한 하나의 원소(피벗)는 최종적으로 위치가 정해지므로, 이 알고리즘은 반드시 끝난다는 것을 보장할 수 있다.  
+
+    ![image](https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort.png)
+
+퀵 정렬(quick sort) 알고리즘의 예제
+--
+> 배열에 5, 3, 6, 4, 9, 1, 6, 2, 7이 저장되어 있다고 가정하고, 자료를 오름차순으로 정렬 
+
+![image](https://gmlwjd9405.github.io/images/algorithm-quick-sort/quick-sort2.png)
+
+- 피봇 값을 입력 리스트의 첫 번째 데이터로 설정. (피봇의 위치를 어디로 정할지에 대한 논문은 아직도 계속해서 나오는 중이다.)
+- 2개의 인덱스 변수(low, high)를 이용해서 리스트를 두 개의 부분 리스트로 나눈다.
+- 1회전: 피봇이 5인 경우,  
+    - ⅰ. low는 왼쪽에서 오른쪽으로 탐색하다가 피봇보다 큰 데이터(8)을 찾으면 멈춤.
+    - ⅱ. high는 오른쪽에서 왼쪽으로 탐색해가다가 피봇보다 작은 데이터(2)를 찾으면 멈춤.
+    - ⅲ. low와 high가 가리키는 두 데이터를 서로 교환.
+    - ⅳ. 이 탐색-교환 과정은 low와 high가 엇갈릴 떄까지 반복.
+- 2회전: 피봇(1회전의 왼쪽 부분리스트의 첫 번째 데이터)이 1인경우,  
+    - 위와 동일한 방법으로 반복.
+- 3회전: 피봇(1회전의 오른쪽 부분리스트의 첫 번째 데이터)이 9인 경우,   
+    - 위와 동일한 방법으로 반복.
+
+퀵 정렬(quick sort) 알고리즘의 특징
+--
+- 장점  
+    1. 속도가 빠르다.
+        - 시간 복잡도가 O(nlog₂n)를 가지는 다른 정렬 알고리즘과 비교했을 때도 가장 빠르다.
+    2. 추가 메모리 공간을 필요로 하지 않는다.
+        - 퀵 정렬은 O(log n)만큼의 메모리를 필요로 한다.
+- 단점
+    1. 정렬된 리스트에 대해서는 퀵 정렬의 불균형 분할에 의해 오히려 수행시간이 더 많이 걸린다.
+  
+- 퀵 정렬의 불균형 분할을 방지하기 위하여 피봇을 선택할 때 더욱 리스트를 균등하게 분할할 수 있는 데이터를 선택한다. (위에서도 말했듯이 피봇의 위치를 어디를 잡느냐에 대한 논문은 아직도 쓰여지는 중이다.)
+
+> quick sork code
+```c
+void partition(int* arr, int start, int end)
+{
+    int pivot = arr[start];
+    // 배열의 첫 번쨰 자리의 값을 피봇 변수에 저장
+    int i = start;
+    // i를 첫 번째 자리인 start로 초기화
+    
+    for(int j = i+1; j <= end; j++) {
+    // j를 i+1로 초기화하고 j를 1씩 증가시키며 배열의 끝인 end 자리까지 반복
+        if(pivot >= arr[j]) {
+        // j 자리의 값이 피봇의 값보다 작다면 i를 다음 칸으로 이동한 후 swap.
+            i++;
+            swap(arr, i, j);
+            // j가 마지막 인덱스까지 이동한 후, 반ㅂ녹문을 나온 뒤 i의 자리의 값과 피봇의 값을 swap
+            return i;
+            // 피봇의 자리를 반환.
+        }
+    }
+}
+
+void quickSort(int* arr, int start, int end)
+{
+    int p; // 피봇의 자리인 p 선언
+    
+    
+    if (start < end) // 배열의 크기가 1일 때는 stop
+    {
+        p = partition(arr, start, end); 
+        // 배열을 분할하고 분할이 완성된 후의 피봇을 p에 저장.
+
+        quickSort(arr, start, p - 1); 
+        // 피봇을 기준으로 왼쪽 배열을 재귀적으로 퀵 정렬 수행
+        quickSort(arr, p + 1, end);
+        // 피봇을 기준으로 오른쪽 배열을 재귀적으로 퀵 정렬 수행
+    }
+}
+
+
+```
+
+퀵 정렬(quick sort)의 시간복잡도
+--
+- 최선의 경우: T(n) = __O(nlog₂n)__
+![iamge](https://gmlwjd9405.github.io/images/algorithm-quick-sort/sort-time-complexity-etc1.png)
+
+- 최악의 경우: T(n) = __O(n²)__
+![image](https://gmlwjd9405.github.io/images/algorithm-quick-sort/sort-time-complexity-etc2.png)
+
+- 평균: T(n) = __O(nlog₂n)__
+
+정렬 알고리즘 시간 복잡도 비교
+--
+![image](https://gmlwjd9405.github.io/images/algorithm-quick-sort/sort-time-complexity.png)
+
 References
 --
 > - 삽입 정렬 https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html  
 > - 버블 정렬 https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html
+> - 퀵 정렬 https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html, https://ko.wikipedia.org/wiki/%ED%80%B5_%EC%A0%95%EB%A0%AC, https://www.youtube.com/watch?v=cWH49IKDIiI&list=PLLcbGhhl4sQCiZxLuqDDDH6q-rc4wyaKe
