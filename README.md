@@ -24,3 +24,5 @@ Rule
 ### Git
 
 - [Github에 잘못 올라간 파일 삭제하기](https://github.com/174cm/TIL/blob/master/Git/Git_cached_and_gitignore.md)
+
+- [.gitignore 설정하기](https://github.com/174cm/TIL/blob/master/Git/Git_gitignore.md)
