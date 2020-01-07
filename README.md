@@ -27,3 +27,7 @@ Rule
 - [Github에 잘못 올라간 파일 삭제하기](https://github.com/174cm/TIL/blob/master/Git/Git_cached_and_gitignore.md)
 
 - [.gitignore 설정하기](https://github.com/174cm/TIL/blob/master/Git/Git_gitignore.md)
+
+### YOLO
+
+- [1. Object Detection intro](https://github.com/174cm/TIL/blob/master/YOLO/1.%20Object_Detection_intro.md)
