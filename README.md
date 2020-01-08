@@ -31,3 +31,5 @@ Rule
 ### YOLO
 
 - [1. Object Detection intro](https://github.com/174cm/TIL/blob/master/YOLO/1.%20Object_Detection_intro.md)
+
+- [2. Rigion Proposal](https://github.com/174cm/TIL/blob/master/YOLO/2.%20Rigion%20Proposal.md)
