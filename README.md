@@ -37,3 +37,4 @@ Rule
 ### 전자정부 프레임워크 
 
 - [1. 전자정부 프레임워크 소개](https://github.com/174cm/TIL/blob/master/eGovFramwork/eGovFramwork_intro.md)
+- [2. 전자정부 프레임워크 설치](https://github.com/174cm/TIL/blob/master/eGovFramwork/eGovFramwork_install.md)
