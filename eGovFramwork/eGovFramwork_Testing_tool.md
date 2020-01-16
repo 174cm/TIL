@@ -1,6 +1,6 @@
 > 본 문서는 전자정부 표준프레임워크 QuickStart[(링크)](http://www.yes24.com/Product/Goods/66372749) 책을 공부한 내용을 기술하였습니다.
 
-Chapter 3. 테스팅 도구
+Chapter 03. 테스팅 도구
 ===
 
 3장에서는 테스팅도구를 소개합니다. 
