@@ -44,3 +44,7 @@ Rule
 - [2. 전자정부 프레임워크 설치](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_install.md)
 - [3. 전자정부 프레임워크 테스팅 도구](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_Testing_tool.md)
 - [4. 전자정부 프레임워크 메이븐](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_Maven.md)
+
+### News
+
+- [코로나바이러스, '인공지능'이 먼저 알았다.](https://news.mt.co.kr/mtview.php?no=2020012716255562500)
