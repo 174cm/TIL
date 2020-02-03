@@ -51,6 +51,9 @@ Rule
 
 - [2020년 1월 31일 Naver Cloud Platform Hands-on 교육](https://github.com/174cm/TIL/blob/master/Education/NCP_Study.md)
 
+### Issue
+
+- [(Solved) Linux Blue Screen](https://github.com/174cm/TIL/blob/master/Issue/linux_blue_screen.md)
 
 ### News
 
