@@ -38,6 +38,8 @@ Rule
 
 - [3. Neural Network](https://github.com/174cm/TIL/blob/master/YOLO/3.%20Neural_Network.md)
 
+- [4. YOLO install](https://github.com/174cm/TIL/blob/master/YOLO/4.%20YOLO_install.md)
+
 ### 전자정부 프레임워크 
 
 - [1. 전자정부 프레임워크 소개](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_intro.md)
