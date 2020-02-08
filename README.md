@@ -40,6 +40,8 @@ Rule
 
 - [4. YOLO install](https://github.com/174cm/TIL/blob/master/YOLO/4.%20YOLO_install.md)
 
+- [5. YOLO Train](https://github.com/174cm/TIL/blob/master/YOLO/5.%20YOLO_Training.md)
+
 ### 전자정부 프레임워크 
 
 - [1. 전자정부 프레임워크 소개](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_intro.md)
