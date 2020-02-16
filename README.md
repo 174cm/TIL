@@ -56,6 +56,7 @@ Rule
 ### Issue
 
 - [(Solved) Linux Blue Screen](https://github.com/174cm/TIL/blob/master/Issue/linux_blue_screen.md)
+- [(Solved) Linux keyboard mouse freezing](https://github.com/174cm/TIL/blob/master/Issue/linux_keyboard_mouse_freezing.md)
 
 ### News
 
