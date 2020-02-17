@@ -57,7 +57,7 @@ Rule
 
 - [(Solved) Linux Blue Screen](https://github.com/174cm/TIL/blob/master/Issue/linux_blue_screen.md)
 - [(Solved) Linux keyboard mouse freezing](https://github.com/174cm/TIL/blob/master/Issue/linux_keyboard_mouse_freezing.md)
-
+- [(Solved) Linux system error message](https://github.com/174cm/TIL/blob/master/Issue/linux_system_error_message.md)
 ### News
 
 - [코로나바이러스, '인공지능'이 먼저 알았다.](https://news.mt.co.kr/mtview.php?no=2020012716255562500)
