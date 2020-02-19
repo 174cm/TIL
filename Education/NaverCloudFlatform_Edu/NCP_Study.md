@@ -62,10 +62,10 @@ Why Cloud?
     - IO 퍼포먼스 차별화
     - SSD 사용 시 최대 IOPS (Input/Output Operations Per Second) 보장
 
-준비 사항
+클라우드 설치 전, 준비 사항
 --
 
-클라우드 서비스를 진행하기 전, 
+클라우드 서비스를 진행하기 전 먼저 __구성 설계__ 를 잘 진행하여야 한다. 쇼핑몰을 예로 들면, 첫 쇼핑몰의 구성은 작을 것이지만 시간이 지날수록 쇼핑몰의 구성은 더욱 커질 것이고 이에 따라, 서버의 스펙또한 늘어날 것이다. 설계를 잘하면 중간에 서버의 구성을 바꾸지 않아도 될 것이기에 설계는 더더욱 중요하다. 
 
 네이버 클라우드 플랫폼 Compute
 --
@@ -123,7 +123,9 @@ Why Cloud?
     - Control Plane 설치, 운영에 대한 고민 없이, 사용자는 Container가 구동되는 Worker Node에 대한 관리만 하면 됨
     - Container Registry, Load Balancer 등 네이버 클라우드 플렛폼 다른 서비스와 통합하여 사용 가능
 
-Lab 1
+---
+
+Lab 1 목차 
 --
 
 - 서버 생성
@@ -138,6 +140,7 @@ Lab 1: 서버 생성 및 접속
 
 `All Product > Server > ACG 선택 > +ACG 생성 선택` 
 
+---
 
 네이버 클라우드 플랫폼 Networking
 --
@@ -174,3 +177,107 @@ Lab 1: 서버 생성 및 접속
         - 따라서 Reply를 던진 후, 커넥션을 얼마동안 끊지 않을 지에 대한 설정을 가능하게 하는 옵션
 
     - Connection idle Time (Default: 60Sec)
+
+### DNS
+
+- 도메인 등록 서비스
+    - 다양한 레코드 타입 지원(A, NS, PTR, AAAA, MX, CNAME, SPF)
+    - 등록 도메인으로 인입되는 트래픽을 분기 (Round Robin)
+
+### CDN+ / GCDN
+
+- 컨텐츠를 Caching 하여 보다 빠르고 안정적으로 사용자에게 전송하는 서비스
+    - 국내, 국외 주 서비스 지역에 따른 CDN 상품 분리 제공 (CDN+: 국내 전용, GCDN: 국외 전용)
+    - 원본은 NCP 오브젝트 스토리지 혹은 커스텀 로이진 서버를 둘 수 있음
+    - 도메인은 랜덤 CDN 도메인 혹은 보유하고 있는 도메인 사용 가능
+    - 지원 프로토콜은 HTTP/HTTPS
+
+- CDN이 언제 필요할까?
+    - 대규모 파일 배포나 이미지 서비스, 동영상 서비스 등 대규모로 트래픽이 발생하는 경우
+    - 웹서버를 통해 배포하게 되면 웹 서버의 용량이 기하 급수적으로 커져야 함
+    - 이러한 대규모 트래픽에 효과적으로 대응하기 위한 서비스
+
+### IPSEC VPN
+
+- 고객의 사내망과 NCP 간 사설 통신을 위한 IPSEC VPN
+    - 고객의 VPN 장비와 NCP VPN 장비 간 터널링 연결 제공(통신 방식 호환이 되어야 함)
+    - NCP 서버들은 Private Subnet 대역(192.x.x.x)
+    - ㅁㅁ
+
+### NAT Gateway
+
+- 비공인 IP를 가진 다수의 서버에게 대표 공인 IP를 이용한 외부 접속을 제공
+
+### Global Route Manager (GRM)
+
+- DNS 기반의 다양한 방법을 통해 네트워크 트래픽을 안정적으로 로드밸런싱하는 GSLB 상품
+    - DNS 기반의 로드밸런싱 서비스 제공을 통해서 지역별 트래픽 기반 부하 분산, DR 구축 등에 사용할 수 있는 상품
+    - 로드밸런싱 타입은 4가지 제공 (Round Robin, Weighted, GeoLocation, Failover)
+    - ip에 대한 Health Check 만 제공
+
+----
+
+LAB 2 목차 
+--
+- LB에 서버 연결
+    - 웹서버 2대를 LB에 연결
+- DNS 구성
+    - WWW1에 A레코드로 공인 ip등록
+    - www2에 CNAME 레코드로 LB등록
+
+LAB 2: DNS와 Load Balancer 생성
+--
+ㅁㅁㅁ
+
+LAB 3: 이벤트 대응과 비용 최적화를 위한 Autoscaling
+--
+ㅁㅁㅁ
+
+---
+
+네이버 클라우드 플랫폼 Storage
+--
+
+### Object Storage
+
+- 인터넷상에 원하는 데이터를 저장하고 사용할 수 있도록 구축된 오브젝트 스토리지
+
+- Object Storage 특징
+    - S3 Compatibility API 지원
+    - Data Lifecycle 지원
+    - Sub Account 와의 연동으로 접근 제어 가능
+    - CND, Transcoder, Image Optimizer, Cloud Hadoop, 
+
+### Archive Storage
+
+- ㅁㅇㄴㅁㅇ
+
+### NAS 
+
+- 다수의 서버에 공유하여 사용할 수 있는 스토리지
+    - 최소 500GB에서 10TB까지 구성 가능
+    - 프로토콜은 NFS / CIFS 제공
+    - NAS 가용량 안에서 생성된 스냅샷 이미지 이용해서 데이터에 대한 복구 기능 제공
+    - 스냅샷은 하루에 한번씩 찍어서 기록으로 남기며 하루안에 올리고 지우는 경우에는 스냅샷을 제공하는 것이 불가능
+    - 서버 사설IP 이용한 ACL 오픈으로 타 계정 서버에도 마운트하여 사용 가능
+
+### Backup
+- ㅁㅁㅁ
+    - ㅁㅁㅁ
+---
+
+LAB 4 목차
+---
+
+- Object Storage
+    - ㅁ
+
+---
+
+네이버 클라우드 플랫폼 Database
+
+### Cloud DB for MySQL
+
+- 자동 Fail-Over 지원 및 사용자 환경에 맞는 구성 가능
+    - Fail-Over: 메인 서버가 죽을 시, 다른 서버로 대체하는 기능
+    - 
