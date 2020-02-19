@@ -52,12 +52,15 @@ Rule
 ### Offline education
 
 - [2020년 1월 31일 Naver Cloud Platform Hands-on 교육](https://github.com/174cm/TIL/blob/master/Education/NCP_Study.md)
+- [2020년 2월 17일 Microsoft Azure 인프라 구축 교육](https://github.com/174cm/TIL/blob/master/Education/Microsoft_Azure_Edu/202017_Microsoft_Azure_Education_Infra.md)
+- [2020년 2월 18일 Microsoft Azure 안드로이드 교육](https://github.com/174cm/TIL/blob/master/Education/NaverCloudPlatform_Edu/200131_NCP_Edu.md)
 
 ### Issue
 
 - [(Solved) Linux Blue Screen](https://github.com/174cm/TIL/blob/master/Issue/linux_blue_screen.md)
 - [(Solved) Linux keyboard mouse freezing](https://github.com/174cm/TIL/blob/master/Issue/linux_keyboard_mouse_freezing.md)
 - [(Solved) Linux system error message](https://github.com/174cm/TIL/blob/master/Issue/linux_system_error_message.md)
+
 ### News
 
 - [코로나바이러스, '인공지능'이 먼저 알았다.](https://news.mt.co.kr/mtview.php?no=2020012716255562500)
