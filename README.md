@@ -51,7 +51,7 @@ Rule
 
 ### Offline education
 
-- [2020년 1월 31일 Naver Cloud Platform Hands-on 교육](https://github.com/174cm/TIL/blob/master/Education/NCP_Study.md)
+- [2020년 1월 31일 Naver Cloud Platform Hands-on 교육](https://github.com/174cm/TIL/blob/master/Education/NaverCloudPlatform_Edu/200131_NCP_Edu.md)
 - [2020년 2월 17일 Microsoft Azure 인프라 구축 교육](https://github.com/174cm/TIL/blob/master/Education/Microsoft_Azure_Edu/202017_Microsoft_Azure_Education_Infra.md)
 - [2020년 2월 18일 Microsoft Azure 안드로이드 교육](https://github.com/174cm/TIL/blob/master/Education/NaverCloudPlatform_Edu/200131_NCP_Edu.md)
 
