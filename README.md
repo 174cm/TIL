@@ -42,6 +42,10 @@ Rule
 
 - [5. YOLO Train](https://github.com/174cm/TIL/blob/master/YOLO/5.%20YOLO_Training.md)
 
+### Engineer Information Processing
+
+- [Ch01_ Software_Life_Cycle](https://github.com/174cm/TIL/blob/master/Engineer_Information_Processing/Ch01_%20Software_Life_Cycle.md)
+
 ### 전자정부 프레임워크 
 
 - [1. 전자정부 프레임워크 소개](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_intro.md)
