@@ -70,3 +70,5 @@ Rule
 - [코로나바이러스, '인공지능'이 먼저 알았다.](https://news.mt.co.kr/mtview.php?no=2020012716255562500)
 
 - [TensorFlow를 활용한 네이버쇼핑의 상품 카테고리 자동 분류](https://d2.naver.com/helloworld/1264836?fbclid=IwAR1XjeaQb3X8flgx1_lsj96ijCJawfyhfFywqY-acbu_XL8A5ObELXUvhPI)
+
+- [인공지능이 슈퍼박테리아 잡는... 슈퍼 항생물질 '할리신(Halicin)' 발견](http://www.aitimes.kr/news/articleView.html?idxno=15462&fbclid=IwAR3lc0V5vLSK9m0q8MDMPGj1BuouCielrxn25jfU0mj91xz6QeOFjm84shY)
