@@ -65,6 +65,13 @@ Rule
 - [(Solved) Linux keyboard mouse freezing](https://github.com/174cm/TIL/blob/master/Issue/linux_keyboard_mouse_freezing.md)
 - [(Solved) Linux system error message](https://github.com/174cm/TIL/blob/master/Issue/linux_system_error_message.md)
 
+
+### eBook
+
+- [한권으로 끝내는 파이썬 & 딥러닝](https://sdc-james.gitbook.io/onebook/)
+- [점프 투 파이썬](https://wikidocs.net/4319)
+- [A Byte of Python](http://byteofpython-korean.sourceforge.net/byte_of_python.html)
+
 ### News
 
 - [코로나바이러스, '인공지능'이 먼저 알았다.](https://news.mt.co.kr/mtview.php?no=2020012716255562500)
