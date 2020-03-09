@@ -64,7 +64,8 @@ Rule
 - [(Solved) Linux Blue Screen](https://github.com/174cm/TIL/blob/master/Issue/linux_blue_screen.md)
 - [(Solved) Linux keyboard mouse freezing](https://github.com/174cm/TIL/blob/master/Issue/linux_keyboard_mouse_freezing.md)
 - [(Solved) Linux system error message](https://github.com/174cm/TIL/blob/master/Issue/linux_system_error_message.md)
-
+- [(Solved) YOLOv3 Make error](https://github.com/174cm/TIL/blob/master/Issue/yolov3_make_error.md)
+- [(Solved) cuDNN install error](https://github.com/174cm/TIL/blob/master/Issue/cuDNN_install_error.md)
 
 ### eBook
 
