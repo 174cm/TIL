@@ -1,3 +1,5 @@
+# Testing Crawling
+import pandas as pd
 import urllib.request
 from bs4 import BeautifulSoup 
 
@@ -8,5 +10,13 @@ temp = soup.find_all('table')
 temp1 = temp[0].find_all('span')
 temp2 = temp[1].find_all('span')
 
-for i in temp1:
-    print(i.text)
+
+    
+def makecsv(item):
+    data=[]
+    for i in temp1:
+        print(i.text)
+    data.append(temp1 = temp[0].find_all('span'))
+    covid_df = pd.DataFrame(i, columns = ['country'])
+    covid_df.to_csv('test.csv', index=False)
+    covid_df.head()
