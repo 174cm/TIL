@@ -7,7 +7,7 @@ import urllib.request
 import pandas as pd
 from bs4 import BeautifulSoup
 
-url = 'http://www.xn--now-po7lf48dlsm0ya109f.kr/infect/occurrence_info.do?infect_no=in_202004080001&pageIndex=&disease_no2=&search_nm='
+url = 'http://www.xn--now-po7lf48dlsm0ya109f.kr/infect/occurrence_info.do?infect_no=in_202004100001&pageIndex=&disease_no2=&search_nm='
 html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, 'html.parser')
 table = soup.find('table', {'style':'table-layout: fixed; border-width: 0.28pt; border-style: solid; border-color: rgb(0, 0, 0);'}) #테이블의 위치
@@ -29,4 +29,4 @@ for idx, tr in enumerate(trs):
     toCsv.append(tmp)
 
 df = pd.DataFrame(data = toCsv)
-df.to_csv('Overseas_covid-19_result.csv', encoding='utf-8')
+df.to_csv('Overseas_covid-19_0410_result.csv', encoding='utf-8')
