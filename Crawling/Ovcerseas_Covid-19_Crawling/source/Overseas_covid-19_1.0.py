@@ -1,5 +1,8 @@
-# Overseas covid 19 crawling testing
-# Creation time: 20.04.08
+'''
+@author: 174cm
+@version: 1.0
+@since: 2020-04-09
+'''
 import urllib.request
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -10,16 +13,20 @@ soup = BeautifulSoup(html, 'html.parser')
 table = soup.find('table', {'style':'table-layout: fixed; border-width: 0.28pt; border-style: solid; border-color: rgb(0, 0, 0);'}) #테이블의 위치
 trs = table.find_all('tr')
 temp = ['아시아','중동', '아메리카', '유럽', '오세아니아','아프리카', '기타']
+toCsv = []
+
 for idx, tr in enumerate(trs):
     tds = tr.find_all('td')
+    tmp = []
     if tds[0].text in temp:
-        cont = tds[1].text #국가
-        conv = tds[2].text #확진자
-        dead = tds[3].text #사망자
+        tmp.append(tds[1].text)
+        tmp.append(tds[2].text)
+        tmp.append(tds[3].text)
     else:
-        cont = tds[0].text #국가
-        conv = tds[1].text #확진자
-        dead = tds[2].text #사망자
-    
-    print(cont, conv,  dead)
+        tmp.append(tds[0].text)
+        tmp.append(tds[1].text)
+        tmp.append(tds[2].text)
+    toCsv.append(tmp)
 
+df = pd.DataFrame(data = toCsv)
+df.to_csv('Overseas_covid-19_result.csv', encoding='utf-8')
