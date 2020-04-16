@@ -1,7 +1,9 @@
 '''
+@file: Overseas_covid-19_2.0.py
 @author: 174cm
 @version: 2.0
 @since: 2020-04-13
+@brief: 해외 국가의 코로나 확진자 및 사망자수를 크롤링하는 프로그램. 
 @difference: 1.Usage(사용법)추가 2.csv 파일 이름을 입력한 날짜로 저장되도록 변경
 '''
 import urllib.request
@@ -14,7 +16,7 @@ from bs4 import BeautifulSoup
 baseUrl = 'http://www.xn--now-po7lf48dlsm0ya109f.kr/infect/occurrence_info.do;jsessionid=ECE7F42FC9E3E16E014F66D4307272C7?infect_no=in_'
 addUrl = input('날짜를 입력하세요: ')
 if len(addUrl) < 12:
-    print("Usage: 202004010001", file=sys.stderr)
+    print("Usage: YYYYMMDD0001 EX)202002020001", file=sys.stderr)
     exit()
 url = baseUrl + addUrl
 html = urllib.request.urlopen(url).read()
