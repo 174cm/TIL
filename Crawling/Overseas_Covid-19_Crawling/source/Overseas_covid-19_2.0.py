@@ -16,11 +16,7 @@ from bs4 import BeautifulSoup
 baseUrl = 'http://www.xn--now-po7lf48dlsm0ya109f.kr/infect/occurrence_info.do;jsessionid=ECE7F42FC9E3E16E014F66D4307272C7?infect_no=in_'
 addUrl = input('날짜를 입력하세요: ')
 if len(addUrl) < 12:
-<<<<<<< HEAD:Crawling/Ovcerseas_Covid-19_Crawling/source/Overseas_covid-19_2.0.py
-    print("Usage: YYYYMMDD0001 EX)202002020001", file=sys.stderr)
-=======
     print("Usage: YYYYMMDD0001 EX)202004010001", file=sys.stderr)
->>>>>>> 75985fa99d78b79ee9646be8274800e1424270df:Crawling/Overseas_Covid-19_Crawling/source/Overseas_covid-19_2.0.py
     exit()
 url = baseUrl + addUrl
 html = urllib.request.urlopen(url).read()
