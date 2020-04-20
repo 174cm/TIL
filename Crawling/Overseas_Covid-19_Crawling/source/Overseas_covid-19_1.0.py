@@ -10,9 +10,10 @@ from bs4 import BeautifulSoup
 url = 'http://www.xn--now-po7lf48dlsm0ya109f.kr/infect/occurrence_info.do?infect_no=in_202004100001&pageIndex=&disease_no2=&search_nm='
 html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, 'html.parser')
-table = soup.find('table', {'style':'table-layout: fixed; border-width: 0.28pt; border-style: solid; border-color: rgb(0, 0, 0);'}) #테이블의 위치
+table = soup.find('table', {
+                  'style': 'table-layout: fixed; border-width: 0.28pt; border-style: solid; border-color: rgb(0, 0, 0);'})  # 테이블의 위치
 trs = table.find_all('tr')
-temp = ['아시아','중동', '아메리카', '유럽', '오세아니아','아프리카', '기타']
+temp = ['아시아', '중동', '아메리카', '유럽', '오세아니아', '아프리카', '기타']
 toCsv = []
 
 for idx, tr in enumerate(trs):
@@ -28,5 +29,5 @@ for idx, tr in enumerate(trs):
         tmp.append(tds[2].text)
     toCsv.append(tmp)
 
-df = pd.DataFrame(data = toCsv)
+df = pd.DataFrame(data=toCsv)
 df.to_csv('Overseas_covid-19_0410_result.csv', encoding='utf-8')

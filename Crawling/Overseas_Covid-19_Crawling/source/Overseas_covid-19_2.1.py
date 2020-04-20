@@ -1,10 +1,10 @@
 '''
-@file: Overseas_covid-19_2.0.py
+@file: Overseas_covid-19_2.1.py
 @author: 174cm
-@version: 2.0
-@since: 2020-04-13
+@version: 2.1
+@since: 2020-04-20
 @brief: 해외 국가의 코로나 확진자 및 사망자수를 크롤링하는 프로그램. 
-@difference: 1.Usage(사용법)추가 2.csv 파일 이름을 입력한 날짜로 저장되도록 변경
+@difference: 1.table의 style이 계속해서 변경됨. > 변경된 table의 style을 찾아 복사.
 '''
 import urllib.request
 import urllib.parse
@@ -22,7 +22,7 @@ url = baseUrl + addUrl
 html = urllib.request.urlopen(url).read()
 soup = BeautifulSoup(html, 'html.parser')
 table = soup.find('table', {
-                  'style': 'table-layout: fixed; border-width: 0.28pt; border-style: solid; border-color: rgb(0, 0, 0);'})  # 테이블의 위치
+                  'style': 'border-width: 0.28pt; border-style: solid; border-color: rgb(0, 0, 0);'})  # 테이블의 위치
 trs = table.find_all('tr')
 temp = ['아시아', '중동', '아메리카', '유럽', '오세아니아', '아프리카', '기타']
 toCsv = []
