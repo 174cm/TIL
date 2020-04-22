@@ -15,3 +15,12 @@ How to use?
 2. 터미널에서 `pip install bs4`로 BeautifulSoup 설치
 3. 터미널에서 `pip install pandas`로 pandas 설치
 4. 실행
+
+Update Note
+--
+
+- 2020.04.08 demo update
+- 2020.04.09 1.0ver update
+- 2020.04.13 2.0ver update
+- 2020.04.21 2.1ver update
+- 2020.04.21 3.0ver update
