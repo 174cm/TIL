@@ -6,8 +6,8 @@ How to use?
 --
 
 - Windows
-1. Vs code에서 `pip install pandas`로 pandas 설치
-2. Vs code에서 `pip install BeautifulSoup4`로 BeautifulSoup 설치
+1. Vs code 터미널에서 `pip install pandas`로 pandas 설치
+2. Vs code 터미널에서 `pip install BeautifulSoup4`로 BeautifulSoup 설치
 3. 실행
 
 - LINUX(Ubuntu)
@@ -24,3 +24,9 @@ Update Note
 - 2020.04.13 2.0ver update
 - 2020.04.21 2.1ver update
 - 2020.04.21 3.0ver update
+
+알려진 문제점 & 개선사항
+-- 
+
+- 현재 사이트에서 당일에 올라오지 않는 상황이 관측됨에 따라 결과물의 제목만으로는 정확하게 날짜를 알기 어려움.
+- 따라서, 결과물에 날짜를 삽입하는 과정일 필요함.
