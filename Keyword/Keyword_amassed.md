@@ -11,6 +11,22 @@ HTML
 
 - gt: gt는 Greater than sign의 약자로 부등호를 나타냅니다. 기호로 표기하면 (>)로 표기됩니다. 마찬가지로 앞에는 &, 뒤에는 ;를 넣어 &gt;로 표기합니다. 
 
+- MIME-Type: MIME(Multipurpose Internet Mail Extensions) 타입은 다목적 인터넷 메일 확장이란 뜻으로, 전자우편의 데이터 형식을 정의한 표준입니다. 하지만 지금은 웹을 통해 전달되는 다양한 형태의 파일을 표현하기 위해 사용되고 있습니다. 
+
+    - 문법  
+        일반적으로 MIME 타입은 '타입/서브타입'의 형태입니다. '/'를 통해 문자로 구분된 두 개의 타입으로 파일의 타입을 명시하며 이 때, 타입 이름으로 공백 문자는 허용하지 않습니다. 대,소문자를 구분하지는 않지만 보통 소문자를 사용합니다.
+        ```
+        text/plain, image/gif, audio/wav ...
+        ```
+    - MIME Type 예제
+        |타입|설명|서브타입|
+        |--|--|--|
+        |text|텍스트로 표현되는 모든 문서를 나타내며 인간이 읽을 수 있는 데이터를 의미|text/plian, text/html, text/css, text/javascript...|
+        |image|모든 종류의 이미지를 나타냄|image/jpeg, image/png, image/gif...|
+        |audio|모든 종류의 오디오 파일들을 나타냄|audio/mpeg, audio/wav, audio/midi...|
+        |video|모든 종류의 비디오 파일들을 나타냄|video/ogg, video/webm|
+        |appication|모든 종류의 바이너리 데이터를 나타냄|application/xml, application/json, application/xhtml+xml, application/pdf...|
+    
 Security
 --
 
