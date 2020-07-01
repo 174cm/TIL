@@ -21,7 +21,7 @@ MQTT의 구조
 --
 
 MQTT는 HTTP, TCP등의 통신과 같이 클라이언트-서버 구조로 이루어지는 것이 아닌 __Broker, Publisher, Subscriber__ 의 구조로 이루어진다. 
-![image](MQTT_Server_introduction.png)
+![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/MQTT_Server_structure.png)
 
 Publicsher는 Topic을 발행(publish)하고, Subscriber는 Topic에 구독(subscribe)한다. Broker는 이들을 중계하는 역할을 하며, 단일 Topic에 여러 Subscriber가 구독할 수 있기에, 1:N 통신 구축에도 매우 유용함. (ROS 시스템의 구독, 발행자 노드 시스템과 거의 동일)
 
