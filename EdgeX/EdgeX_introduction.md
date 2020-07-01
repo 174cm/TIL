@@ -1,5 +1,8 @@
-EdgeX Foundry
+EdgeX Foundry Introduction
 ==
+> 본 문서는 EdgeX의 개인 입문용 문서로, edgeX에 대한 입문을 돕기위해 만든 문서입니다.   
+> version: 0.5
+
 Edge?
 --
 Edge는 데이터 소스와 더 가까운 물리적인 위치를 지칭하는 말로, 바로 그 위치에서 컴퓨팅이 가능하다. 
