@@ -26,7 +26,13 @@ HTML
         |audio|모든 종류의 오디오 파일들을 나타냄|audio/mpeg, audio/wav, audio/midi...|
         |video|모든 종류의 비디오 파일들을 나타냄|video/ogg, video/webm|
         |appication|모든 종류의 바이너리 데이터를 나타냄|application/xml, application/json, application/xhtml+xml, application/pdf...|
-    
+
+Server 
+--
+- MQTT Server: M2M, IOT를 위한 프로토콜로써, 최소한의 전력과 패킷량으로 통신하는 프로토콜이다. 따라서 IOT와 모바일 어플리케이션 등의 통신에 매우 적합한 프로토콜이다. 일반적인 HTTP, TCP등의 클라이언트 - 서버 통신과는 달리 Broker, Publisher, Subscriber 구조로 이루어진다. 
+
+- Push Server: 기존의 서버는 대부분 클라이언트에서 서버에 요청하는 (pull)방식이 많이 사용되었다. 하지만 최근 스마트폰, 테블릿이 보급되면서 요청이 많아지면서 클라이언트가 서버에게 요청 > 다시 자료를 받는 방법을 사용하였으나 이 방법은 패킷을 많이 소모하게 되었다. 그래서 나온 방식이 서버에서 새로운 소식이 있을 때 클라이언트로 알려주는 Push방식이 많이 사용되고 있다.
+
 Security
 --
 
@@ -69,3 +75,8 @@ Technique
 --
 
 - Mob Programming: 이 작업 기법은 페어 프로그래밍의 확장판으로 우리말로 번역하면 __떼 코딩__ 정도가 된다. 몹 프로그래밍은 한명의 드라이버와 여러 명의 프로그래머가 하나의 PC로 코딩 또는 문서화 작업을 진행하는 개발 방식으로 1:1방식인 페어 프로그래밍을 1:N으로 확장시킨 형태이다. 여기서 N은 에자일 개발팀 전체 인원수로 팀 전원이 참여한다는 것이 특징이다.
+
+Reference
+--
+
+- Push Server (https://cozyboy.tistory.com/entry/push-server)
