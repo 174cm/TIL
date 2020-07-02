@@ -176,15 +176,15 @@ EdgeX는 장치에서 데이터를 읽을 수 있을 뿐만 아니라, 장치를
             }
         ]
     }
-```
+    ```
     해당 판독 값의 기본 범위는 -128에서 127까지 입니다. 새 최소값 및 최대 값을 이용하여 PUT 메소들 명령을 호출하여 0에서 100사이의 양수 값으로만 제한 할 수 있습니다. 
 
 5. 양수 값으로 제한
 
     ```
-    curl -X PUT -d '[
-    {"Min_Int8": "0", "Max_Int8": "100"}
-]' http://localhost:48082/api/v1/device/5c0e8a259f8fc20001a5d230/command/5c0e8a259f8fc20001a5d22b
+        curl -X PUT -d '[
+        {"Min_Int8": "0", "Max_Int8": "100"}
+    ]' http://localhost:48082/api/v1/device/5c0e8a259f8fc20001a5d230/command/5c0e8a259f8fc20001a5d22b
     ```
 
 Reference
