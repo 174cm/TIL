@@ -21,14 +21,17 @@ Docker 및 Docker Compose가 설치되면 EdgeX Foundry Docker 컨테이너를 �
     ```
     docker-compose pull
     ```
+    ![imgae](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_pull.PNG)
 4. 모든 EdgeXx Foundry 마이크로 서비스를 시작합니다. 
     ```
     docker-compose up -d
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_up.PNG)
 5. EdgeX 컨테이너가 모두 시작되었는지 확인합니다.
     ```
     docker-compose ps
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_ps.PNG)
 
 1.3 장치 연결
 --
@@ -182,7 +185,7 @@ EdgeX는 장치에서 데이터를 읽을 수 있을 뿐만 아니라, 장치를
     curl -X PUT -d '[
     {"Min_Int8": "0", "Max_Int8": "100"}
 ]' http://localhost:48082/api/v1/device/5c0e8a259f8fc20001a5d230/command/5c0e8a259f8fc20001a5d22b
-```
+    ```
 
 Reference
 --
