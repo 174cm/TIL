@@ -4,9 +4,13 @@ EdgeX Quick Start for User
 > version: 0.8
 EdgeX 문서는 User용과 Developer로 나뉘며 여기서는 User용을 설명합니다. 본 문서는 앞에 소개한 Quick Start Guide와 비슷 혹은 동일합니다. 순서는 다음과 같습니다. 
 
-1. docker setup
-2. edgeX foundrt compose file download
-3. run edgeX using compose commands 
+목차
+--
+1. Docker Setup
+2. EdgeX Foundry compose file download
+3. Run EdgeX using compose commands 
+4. Advanced EdgeX Foundry User Commands
+5. EdgeX Foundry Container Logs
 
 EdgeX 권장 사양
 --
@@ -67,12 +71,14 @@ EdgeX Foundry 중지 및 제거
     ```
     docker-compose down
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_down.PNG)
 
 - 실행 중인 혹은 사용 가능한 컨테이너 체크 
 
     ```
     docker-compose ps
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_down%26ps.PNG)
 
     현재 모든 컨테이너를 중지시켰기 때문에 ps의 결과로 아무것도 나타나지 않는 것을 볼 수 있습니다. 
 
@@ -85,12 +91,14 @@ EdgeX Foundry 중지 및 제거
     ```
     docker-compose pull [compose-container-name]
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_pull_compose-container-name.PNG)
 
 - 컨테이너의 Docker Compose 이름 목록 가져오기 
 
     ```
     docker-compose config --services
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_config_--services.PNG)
 
 - 컨테이너 시작
 
@@ -105,6 +113,7 @@ EdgeX Foundry 중지 및 제거
     ```
     docker-compose start [compose-container-name] 
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_start_volume.PNG)
 
     여기에서 볼륨 컨테이너가 동작됩니다. 
 
@@ -113,19 +122,23 @@ EdgeX Foundry 중지 및 제거
     ```
     docker-compose stop [compose-container-name]
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_stop_volume.PNG)
 
     컨테이너 중지에는 다음과 같은 개별 중지와 
 
     ```
     docker-compose down
     ```
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_down_2.PNG)
 
     모든 컨테이너를 중지하는 명령어가 따로 존재합니다. 
     
     down 명령어의 경우 모든 컨테이너를 중지 한 다음 __모든 컨테이너를 제거__ 합니다.        
     하지만 stop의 경우 컨테이너를 중지하지만 컨테이너 이미지를 제거하지는 않습니다. 
 
+    down 후 start를 시도하여보면 failed로 나올 것이며 이는 이미지가 모두 제거되었기 때문입니다. 
 
+    ![image]()
 
 
 Reference
