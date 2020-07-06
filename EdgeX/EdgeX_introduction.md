@@ -1,7 +1,7 @@
 EdgeX Foundry Introduction
 ==
 > 본 문서는 EdgeX의 개인 입문용 문서로, edgeX에 대한 입문을 돕기위해 만든 문서입니다.   
-> version: 0.5
+> version: 0.7
 
 Edge?
 --
@@ -30,7 +30,7 @@ EdgeX는 전체 아키텍처를 다음과 같은 원칙으로 고안했다.
     - 플랫폼의 모든 부분은 다른 마이크로 서비스 또는 소프트웨어 구성 요소로 업그레이드, 교체 또는 확장 될 수 있다.
     - 장치 기능 및 사용 사례에 따라 서비스 확장 및 축소 허용
 - EdgeX는 저장 및 전달 기능을 제공해야 한다.
-    - 분리 / 원격 에지 시스템을 지원
+    - 분리 / 원격 에지 시스템을 지원docker
     - 간헐적인 연결을 처리 및 지원
 - EdgeX는 "지능"을 지원하고 촉진하여 가장자리에 더 가까이 이동해야 한다.
     - 작동 지연 문제
@@ -49,19 +49,6 @@ EdgeX는 Apache Foundation의 지원을 받는 Apache 2 라이센스에 따라 �
          1. 컴파일 언어지만, 컴파일러의 컴파일 속도가 매우 빨라 인터프리터 언어처럼 쓸 수 있음. 
          2. 접근하기 쉽고, 코드가 간결하며, 높은 성능을 낼 수 있음.
          3. 풍부한 라이브러리에 막강한 기능을 쉽게 구현 가능
-
-EdgeX Quick Starter
---
-- 1. 목표: 가능한 간단하게 장치에서 클라우드까지 작동하는 IoT Edge Stack을 얻는 것.
-    - 1.1 설정: Docker 이미지를 사용하여야 하므로 다음을 설치하여야 한다. 
-        - docker (https://docs.docker.com/get-docker/)
-        - docker compose (https://docs.docker.com/compose/install/)
-            - docker 설치하려고 봤더니, Windows10 x64 Pro, Enterprise 또는 Education (build 15063 이상)이 필요하다. (나는 Windows10 Home > 포맷 필요)
-            - CPU 가상화 기능이 활성화되어 있어야 한다.
-            - Microsoft Hyper-V가 필요하다.
-
-
-
 
 Reference
 --
