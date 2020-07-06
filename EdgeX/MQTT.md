@@ -21,7 +21,7 @@ MQTT의 구조
 --
 
 MQTT는 HTTP, TCP등의 통신과 같이 클라이언트-서버 구조로 이루어지는 것이 아닌 __Broker, Publisher, Subscriber__ 의 구조로 이루어진다. 
-![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/MQTT_Server_structure.png)
+![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/MQTT/MQTT_Server_structure.png)
 
 Publicsher는 Topic을 발행(publish)하고, Subscriber는 Topic에 구독(subscribe)한다. Broker는 이들을 중계하는 역할을 하며, 단일 Topic에 여러 Subscriber가 구독할 수 있기에, 1:N 통신 구축에도 매우 유용함. (ROS 시스템의 구독, 발행자 노드 시스템과 거의 동일)
 
@@ -65,8 +65,8 @@ ActuveMQ
 - Apache ActiveMQ는 가장 대중적이며 강력한 오픈 소스 메세징, 통합 패턴 서버
 - 빠르며, 다양한 언어간의 클라이언트 및 프로토콜을 지원
 - 사용하기 쉬운 엔터프라이즈 통합 패턴 및 많은 고급 기능을 제공하면서 JMS 1.1 및 J2EE 1.4를 완벽하게 지원
-- MOM(메시지 지향 미들웨어)이다.
-- JMS를 지원하는 클라이언트를 포함하는 브로커, 자바 뿐만 아니라 다양한 언어를 이용하는 시스템간의 통신을 할 수 있게 도움을 준다. 또한 클러스터링 기능 및 DB 그리고 파일시스템을 통해 각 시스템간의 일관성 및 지속성을 유지시킨다.
+- MOM(Message-Oriented Middleware, 메시지 지향 미들웨어)이다.
+- JMS(Java Message Service)를 지원하는 클라이언트를 포함하는 브로커, 자바 뿐만 아니라 다양한 언어를 이용하는 시스템간의 통신을 할 수 있게 도움을 준다. 또한 클러스터링 기능 및 DB 그리고 파일시스템을 통해 각 시스템간의 일관성 및 지속성을 유지시킨다.
 
 Reference
 --
