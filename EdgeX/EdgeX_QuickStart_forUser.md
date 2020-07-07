@@ -1,7 +1,8 @@
 EdgeX Quick Start for User
 ==
-> 본 문서는 EdgeX Getting Started with Docker의 문서를 참고하여 작성한 문서입니다. 
+> 본 문서는 EdgeX Getting Started with Docker의 문서를 참고하여 작성한 문서입니다.   
 > version: 0.8
+
 EdgeX 문서는 User용과 Developer로 나뉘며 여기서는 User용을 설명합니다. 본 문서는 앞에 소개한 Quick Start Guide와 비슷 혹은 동일합니다. 순서는 다음과 같습니다. 
 
 목차
