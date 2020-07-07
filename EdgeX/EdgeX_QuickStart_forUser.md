@@ -60,7 +60,8 @@ Docker Command
     ```
     docker-compose ps
     ```
-
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_ps.PNG)
+    
     config-seed와 같은 초기화 또는 시드 컨테이너는 관련 서비스를 초기화 한 다음 종료하는 작업이므로 종료됩니다. 
 
 EdgeX Foundry 중지 및 제거
@@ -138,7 +139,7 @@ EdgeX Foundry 중지 및 제거
 
     down 후 start를 시도하여보면 failed로 나올 것이며 이는 이미지가 모두 제거되었기 때문입니다. 
 
-    ![image]()
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker-compose_down%26start.PNG)
 
 
 Reference
