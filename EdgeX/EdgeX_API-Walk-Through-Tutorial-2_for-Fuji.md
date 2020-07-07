@@ -75,8 +75,7 @@ Addressable의 경우 고유 이름을 제공해야 합니다.
 4. raw 클릭
 5. Body의 내용 입력
 
-![image](addressable)
-
+![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/Tutorial/Tutorial2/Addressable.png)
 
 - API 호출 결과
 
@@ -139,7 +138,8 @@ Addressable과 마찬가지로 Value Descriptor 또한 고유의 이름을 가�
     GET to http://localhost:48080/api/v1/valuedescriptor 
     ```
 
-    ![image](getValueDescriptor)
+    ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/Tutorial/Tutorial2/GetValueDescriptor.png)
+
 Reference
 --
 
