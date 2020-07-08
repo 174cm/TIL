@@ -15,7 +15,7 @@ EdgeX API Walk Through Tutorial for Fuji 2
 9. Exporting device data
 10. Building own solution
 
-여기서는 4. Defining Device Service를 진행합니다. 
+여기서는 __4. Defining Device Service__ 를 진행합니다. 
 
 ## 4. Defining Device Service
 
@@ -23,7 +23,7 @@ EdgeX에서 새 장치의 서비스를 시작하면 아직 EdgeX에 알려지지
 
 - 장치 서비스 및 장치에 대한 __참조 정보__ 설정
 - 장치 서비스 자체를 나머지 EdgeX에게 알림
-- 장치 서비스가 EdgeX로 관리할 장치를 *프로비저닝(Provisioning)
+- 장치 서비스가 EdgeX로 관리할 장치를 *__프로비저닝(Provisioning)__
 
 참조 정보에는 1. 장치 및 장치 서비스의 주소 (__Addressable__) 2. 장치에서 사용하는 새 측정 단위(__Value Descriptor__) 설정과 같은 항목이 포함됩니다. 
 
@@ -38,7 +38,7 @@ EdgeX는 장치에서 데이터 수집을 시작하거나 작동 명령을 장�
 4.2 Addressables
 --
 
-*Core Matadata API RAML 참조: [APIs Core Services Matadata](https://github.com/edgexfoundry/edgex-go/blob/master/api/raml/core-metadata.raml)
+* Core Matadata API RAML 참조: [APIs Core Services Matadata](https://github.com/edgexfoundry/edgex-go/blob/master/api/raml/core-metadata.raml)
 
 장치 서비스는 종종 Core Matadata Micro Service로 적어도 두 개의 Addressable object를 설정합니다. Addressable은 물리적 주소를 지정하는 유연한 EdgeX 객체입니다. 이 경우 장치 서비스와 장치 (카메라)의 물리적 주소입니다. 
 
@@ -85,6 +85,8 @@ Addressable의 경우 고유 이름을 제공해야 합니다.
 
 4.3 Value Descriptors
 --
+
+* Core Core-Data API RAML 참조: [APIs Core Services Core Data](https://github.com/edgexfoundry/edgex-go/blob/master/api/raml/core-metadata.raml)
 
 Device Service는 장치를 대신하여 전송할 데이터 유형에 대해 EdgeX에게 알려야합니다. 숫자 5가 주어진다면 이것은 어떤 의미인지 알 수 있어야 합니다. 이것이 사람의 수인지, 개의 수인지, 스캔 깊이인지 알 수 없습니다. EdgeX에서 Value Descriptor는 장치와 주고받는 모든 데이터에 대한 컨텍스트 및 측정 단위를 제공합니다. 측정 단위, 최소값 및 최대값 값을 화면에 표시할 때 표시하는 방법 등의 값을 설명합니다. 
 
