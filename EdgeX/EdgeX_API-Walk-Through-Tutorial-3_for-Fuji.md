@@ -143,3 +143,8 @@ Command는 Device에서 데이터를 가져오는 데 사용되는 만큼, Devic
 ```
 
 다음의 예를 통해 parameter를 예상할 수 있습니다. 
+
+Reference
+--
+
+- fuji-docs (https://fuji-docs.edgexfoundry.org/index.html)
