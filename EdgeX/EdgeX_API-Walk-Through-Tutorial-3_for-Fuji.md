@@ -7,14 +7,16 @@ EdgeX API Walk Through Tutorial for Fuji 3
 목차
 --
 
-5. Register Device Service
-6. Provision a Device
-7. Calling commands
-8. Sending events & reading data
-9. Exporting device data
-10. Building own solution
+4. Defining Data
+5. Defining Device 
+6. Register Device Service
+7. Provision a Device
+8. Calling commands
+9. Sending events & reading data
+10. Exporting device data
+11. Building own solution
 
-여기서는 __5. Register Device Service__ 를 진행합니다. 
+여기서는 __5. Register Device__ 를 진행합니다. 
 
 ## 5. Defining Device 
 

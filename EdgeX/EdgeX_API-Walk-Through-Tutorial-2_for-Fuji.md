@@ -7,17 +7,18 @@ EdgeX API Walk Through Tutorial for Fuji 2
 목차
 --
 
-4. Defining Device Service
-5. Register Device Service
-6. Provision a Device
-7. Calling commands
-8. Sending events & reading data
-9. Exporting device data
-10. Building own solution
+4. Defining Data
+5. Defining Device 
+6. Register Device Service
+7. Provision a Device
+8. Calling commands
+9. Sending events & reading data
+10. Exporting device data
+11. Building own solution
 
-여기서는 __4. Defining Device Service__ 를 진행합니다. 
+여기서는 __4. Defining Data__ 를 진행합니다. 
 
-## 4. Defining Device Service
+## 4. Defining Data
 
 EdgeX에서 새 장치의 서비스를 시작하면 아직 EdgeX에 알려지지 않은 하나 이상의 장치 및 장치 서비스를 관리하기 위해 수행해야 할 작업이 있습니다. 
 

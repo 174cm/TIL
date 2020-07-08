@@ -10,15 +10,16 @@ EdgeX API Walk Through Tutorial for Fuji 1
 1. Setup environment
 2. Running EdgeX 
 3. Example UseCase
-4. Defining Device Service
-5. Register Device Service
-6. Provision a Device
-7. Calling commands
-8. Sending events & reading data
-9. Exporting device data
-10. Building own solution
+4. Defining Data
+5. Defining Device 
+6. Register Device Service
+7. Provision a Device
+8. Calling commands
+9. Sending events & reading data
+10. Exporting device data
+11. Building own solution
 
-여기서는 3.Exaple UseCase까지 설명합니다. 
+여기서는 __3.Exaple UseCase__ 까지 설명합니다. 
 
 ## 1. Setup enviroment
 
