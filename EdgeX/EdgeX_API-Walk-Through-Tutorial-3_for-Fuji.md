@@ -7,7 +7,6 @@ EdgeX API Walk Through Tutorial for Fuji 3
 목차
 --
 
-4. Defining Data
 5. Defining Device 
 6. Register Device Service
 7. Provision a Device
