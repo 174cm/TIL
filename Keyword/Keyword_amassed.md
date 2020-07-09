@@ -70,6 +70,10 @@ AI
 - NLP(Natural Language Processing): 유용한 업무 수행을 위해 자연 언어(사람의 언어)를 컴퓨터가 처리하고 이해할 수 있도록 하는 것을 말한다. 스펠링 및 맞춤법 검사, 키워드 검색, 동의어 발견 등에 사용할 수 있고 웹사이트로부터 정보를 추출하거나 문서를 분류하는 것 등등 많은 부분에서 활용이 가능하다.
 
 
+Docker
+--
+
+- Docker Container Orchestration: docker contatiner의 갯수가 꾸준히 늘어나면 필요한 자원 또한 지속적으로 늘어난다. 때문에 서버 또한 여러대로 늘어난다. 많은 서버들을 하나씩 접근하여 관리하기에는 시간과 인력이 소모된다. 이러한 다중 컨테이너 패키지 어플리케이션을 배포하는 동안 사용되는 컨테이너, 리소스의 자동화, 정렬, 조정 및 관리를 하는 작업을 Container Orchestration이라고 한다. 이를 위해서는 Tool이 필요한데 여러가지 Tool이 있다. 큰 예로 Docker Swarm, Kubernetes, ECS 등이 있다.
 
 Technique
 --
@@ -80,3 +84,4 @@ Reference
 --
 
 - Push Server (https://cozyboy.tistory.com/entry/push-server)
+- Docker Container Orchestration (https://subicura.com/2017/02/25/container-orchestration-with-docker-swarm.html)
