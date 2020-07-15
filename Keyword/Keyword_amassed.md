@@ -1,7 +1,7 @@
 Keyword amassed
 ==
-> 본 문서는 IT용어 Keyword들을 모아 공부 및 정리하는 용도의 문서입니다.
-> ABCDEFGHIJKLMNOPQRSTUVWXYZ의 알파벳 순으로 정렬하였습니다. 
+> 본 문서는 IT용어 Keyword들을 모아 공부 및 정리하는 용도의 문서입니다.  
+> `ABCDEFGHIJKLMNOPQRSTUVWXYZ`의 알파벳 순으로 정렬하였습니다. 
 
 AI
 --
