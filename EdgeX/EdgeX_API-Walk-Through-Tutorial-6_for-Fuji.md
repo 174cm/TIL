@@ -239,8 +239,13 @@ BODY:  {"depth":"9"}
 ```
 docker logs edgex-core-command
 ```
+- 명령을 사용하기 전
+![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker_logs_edgex-core-command_1.PNG)
 
-!(image)[docker_logs_edgex-core-command, _1]
+- 명령을 사용한 후
+![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker_logs_edgex-core-command.PNG)
+
+명령을 사용한 후, INFO와 ERROR가 추가된 것을 확인할 수 있습니다. 
 
 Reference
 --
