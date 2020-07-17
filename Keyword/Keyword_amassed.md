@@ -77,7 +77,7 @@ Security
 
 Smart Factory
 --
-
+- __IIoT (Industrial Internet of Things)__: 기존의 IoT에서 산업용에 특화된 사물인터넷 기술을 의미한다. 
 - __HMI(Human Machine Interface)__: 기계 제어에 사용되는 데이터를 인간에게 친숙한 형태로 변환하여 보여주는 장치. 이것을 통해 관리자가 해당 공정을 감시하고 제어하게 된다.
 - __SCADA(Supervisory Control And Data Acquisition)__: 산업 공정/기반 시설/설비를 바탕으로 한 작업공정을 감시하고 제어하는 컴퓨터 시스템을 말한다.
 
