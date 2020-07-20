@@ -39,6 +39,7 @@ BODY: {"device":"countcamera1","readings":[{"name":"humancount","value":"5"},{"n
 ```json
 BODY: {"device":"countcamera1","origin":1471806386919, "readings":[{"name":"humancount","value":"1","origin":1471806386919},{"name":"caninecount","value":"0","origin":1471806386919}]}
 ```
+![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/send_an_eventreading_origintime.png)
 
 - Origin Time Stamp 권장 사항
 
@@ -54,9 +55,11 @@ BODY: {"device":"countcamera1","origin":1471806386919, "readings":[{"name":"huma
 ```json
 GET to http://localhost:48080/api/v1/event/count
 ```
+![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/data_reading.png)
 
 countcamera1 장치와 관련된 이벤트 10개를 검색합니다. 
 
+![iamge](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/get_countcamera1_10.png)
 ```json
 GET to http://localhost:48080/api/v1/event/device/countcamera1/10
 ```
