@@ -87,3 +87,8 @@ EdgeX Foundry의 작동 방식을 이해하는데 조금이나마 이해가 되�
 8장까지 따라오시느라 정말 수고 많으셨습니다. 
 
 감사합니다. 
+
+Reference
+--
+
+- fuji-docs (https://fuji-docs.edgexfoundry.org/index.html)
