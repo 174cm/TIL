@@ -1,8 +1,6 @@
 EdgeX API Walk Through Tutorial 8 for Fuji FINAL
 ==
 
-EdgeX API Walk Through Tutorial for Fuji 8 FINAL
-
 > 본 문서는 Fuji용 EdgeX API Walk through Tutorial을 돕는 문서입니다.   
 > version: 1.0
 
@@ -77,3 +75,15 @@ Addressable [name=MyMQTTBroker, protocol=TCP, address=tcp://m10.cloudmqtt.com, p
 
 - EdgeX Export Distro log  
 ![image](https://github.com/174cm/TIL/blob/master/EdgeX/img/QuickStarterGuide/docker_logs_edgex-export-distro.PNG)
+
+## 11. Building own solution
+
+이제 API Walk Through Tutorial을 끝까지 완료했습니다. 
+
+EdgeX Foundry의 작동 방식을 이해하는데 조금이나마 이해가 되었나요? 사실 저도 아직 이해중이라 완벽하게는 이해가 가진 않지만 그래도 어떻게 동작하는가에 대한 이해는 되는 것 같습니다. 
+
+[SDK that generates Device Service](https://fuji-docs.edgexfoundry.org/Ch-GettingStartedSDK.html)의 링크를 통해 자체 솔루션 구축을 할 수 있다고 합니다. 
+
+8장까지 따라오시느라 정말 수고 많으셨습니다. 
+
+감사합니다. 
