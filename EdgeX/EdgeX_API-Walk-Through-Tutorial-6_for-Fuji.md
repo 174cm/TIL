@@ -1,7 +1,5 @@
-EdgeX_API-Walk-Through-Tutorial-6_for-Fuji
+EdgeX API Walk Through Tutorial-6 for Fuji
 ==
-
-EdgeX API Walk Through Tutorial for Fuji 6
 
 > 본 문서는 Fuji용 EdgeX API Walk through Tutorial을 돕는 문서입니다.   
 > version: 1.0
