@@ -10,7 +10,6 @@ Rule
 - 해당 문서를 다시 봤을 때, 추가적인 검색의 비용이 들지 않도록 자세히 기록한다.
 - 지속적인 관심을 두어 업데이트가 필요한 항목은 주기적으로 업데이트 한다.
 
-
 분류
 --
 
@@ -26,42 +25,45 @@ Rule
 
 - [Overseas Covid-19 Crawling](https://github.com/174cm/TIL/tree/master/Crawling/Overseas_Covid-19_Crawling)
 
-### Git
+### EdgeX 
 
-- [Github에 잘못 올라간 파일 삭제하기](https://github.com/174cm/TIL/blob/master/Git/Git_cached_and_gitignore.md)
+#### EdgeX Fuji
 
-- [.gitignore 설정하기](https://github.com/174cm/TIL/blob/master/Git/Git_gitignore.md)
+- [EdgeX Quick Start Guide](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_QuickStarterGuide.md)
 
-### YOLO
+- [EdgeX Quick Start for User(fuji ver.)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_QuickStart_forUser.md)
 
-- [1. Object Detection intro](https://github.com/174cm/TIL/blob/master/YOLO/1.%20Object_Detection_intro.md)
+- [EdgeX API Walk Through Tutorial 1(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-1_for-Fuji.md)
 
-- [2. Rigion Proposal](https://github.com/174cm/TIL/blob/master/YOLO/2.%20Rigion%20Proposal.md)
+- [EdgeX API Walk Through Tutorial 2(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-2_for-Fuji.md)
 
-- [YOLO Network 정리](https://github.com/174cm/TIL/blob/master/YOLO/200109_YOLO_intro.pptx)
+- [EdgeX API Walk Through Tutorial 3(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-3_for-Fuji.md)
 
-- [3. Neural Network](https://github.com/174cm/TIL/blob/master/YOLO/3.%20Neural_Network.md)
+- [EdgeX API Walk Through Tutorial 4(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-4_for-Fuji.md)
 
-- [4. YOLO install](https://github.com/174cm/TIL/blob/master/YOLO/4.%20YOLO_install.md)
+- [EdgeX API Walk Through Tutorial 5(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-5_for-Fuji.md)
 
-- [5. YOLO Train](https://github.com/174cm/TIL/blob/master/YOLO/5.%20YOLO_Training.md)
+- [EdgeX API Walk Through Tutorial 6(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-6_for-Fuji.md)
+
+- [EdgeX API Walk Through Tutorial 7(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-7_for-fuji.md)
+
+- [EdgeX API Walk Through Tutorial 8 FINAL(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-8_for-fuji_FINAL.md)
 
 ### Engineer Information Processing
 
 - [Ch01_ Software_Life_Cycle](https://github.com/174cm/TIL/blob/master/Engineer_Information_Processing/Ch01_%20Software_Life_Cycle.md)
 
-### 전자정부 프레임워크 
-
-- [1. 전자정부 프레임워크 소개](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_intro.md)
-- [2. 전자정부 프레임워크 설치](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_install.md)
-- [3. 전자정부 프레임워크 테스팅 도구](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_Testing_tool.md)
-- [4. 전자정부 프레임워크 메이븐](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_Maven.md)
-
-### Offline education
+### Education
 
 - [2020년 1월 31일 Naver Cloud Platform Hands-on 교육](https://github.com/174cm/TIL/blob/master/Education/NaverCloudPlatform_Edu/200131_NCP_Edu.md)
 - [2020년 2월 17일 Microsoft Azure 인프라 구축 교육](https://github.com/174cm/TIL/blob/master/Education/Microsoft_Azure_Edu/202017_Microsoft_Azure_Education_Infra.md)
-- [2020년 2월 18일 Microsoft Azure 안드로이드 교육](https://github.com/174cm/TIL/blob/master/Education/NaverCloudPlatform_Edu/200131_NCP_Edu.md)
+- [2020년 2월 18일 Microsoft Azure 안드로이드 교육](https://github.com/174cm/TIL/blob/master/Education/Microsoft_Azure_Edu/202018_Microsoft_Azure_Education_Android.md)
+
+### Git
+
+- [Github에 잘못 올라간 파일 삭제하기](https://github.com/174cm/TIL/blob/master/Git/Git_cached_and_gitignore.md)
+
+- [.gitignore 설정하기](https://github.com/174cm/TIL/blob/master/Git/Git_gitignore.md)
 
 ### Issue
 
@@ -70,6 +72,39 @@ Rule
 - [(Solved) Linux system error message](https://github.com/174cm/TIL/blob/master/Issue/linux_system_error_message.md)
 - [(Solved) YOLOv3 Make error](https://github.com/174cm/TIL/blob/master/Issue/yolov3_make_error.md)
 - [(Solved) cuDNN install error](https://github.com/174cm/TIL/blob/master/Issue/cuDNN_install_error.md)
+- [(Solved) CUDA OpenCV make error](https://github.com/174cm/TIL/blob/master/Issue/CUDA_OpenCV_make_error.md)
+- [(Solved) JSTL error](https://github.com/174cm/TIL/blob/master/Issue/JSTL_Error.md)
+- [(Solved) BeautyfulSoup install error](https://github.com/174cm/TIL/blob/master/Issue/BeautyfulSoup_install.md)
+- [(Solved) Docker-compose down error](https://github.com/174cm/TIL/blob/master/Issue/docker-compose_down_failed.md)
+
+### Keyword
+
+- [Keyword amassed](https://github.com/174cm/TIL/blob/master/Keyword/Keyword_amassed.md)
+
+### Vim
+
+- [vimrc edit](https://github.com/174cm/TIL/blob/master/Vim/vimrc_edit.md)
+
+### YOLO
+
+- [1. Object Detection intro](https://github.com/174cm/TIL/blob/master/YOLO/1.%20Object_Detection_intro.md)
+
+- [2. Rigion Proposal](https://github.com/174cm/TIL/blob/master/YOLO/2.%20Rigion%20Proposal.md)
+
+- [3. Neural Network](https://github.com/174cm/TIL/blob/master/YOLO/3.%20Neural_Network.md)
+
+- [4. YOLO install](https://github.com/174cm/TIL/blob/master/YOLO/4.%20YOLO_install.md)
+
+- [5. YOLO Train](https://github.com/174cm/TIL/blob/master/YOLO/5.%20YOLO_Training.md)
+
+- [YOLO Network PPT](https://github.com/174cm/TIL/blob/master/YOLO/200109_YOLO_intro.pptx)
+
+### eGovFramework 
+
+- [1. 전자정부 프레임워크 소개](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_intro.md)
+- [2. 전자정부 프레임워크 설치](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_install.md)
+- [3. 전자정부 프레임워크 테스팅 도구](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_Testing_tool.md)
+- [4. 전자정부 프레임워크 메이븐](https://github.com/174cm/TIL/blob/master/eGovFramework/eGovFramework_Maven.md)
 
 ### eBook
 
