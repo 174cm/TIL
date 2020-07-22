@@ -31,23 +31,23 @@ Rule
 
 - [EdgeX Quick Start Guide](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_QuickStarterGuide.md)
 
-- [EdgeX Quick Start for User(fuji ver.)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_QuickStart_forUser.md)
+- [EdgeX Quick Start for User](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_QuickStart_forUser.md)
 
-- [EdgeX API Walk Through Tutorial 1(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-1_for-Fuji.md)
+- [EdgeX API Walk Through Tutorial 1](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-1_for-Fuji.md)
 
-- [EdgeX API Walk Through Tutorial 2(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-2_for-Fuji.md)
+- [EdgeX API Walk Through Tutorial 2](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-2_for-Fuji.md)
 
-- [EdgeX API Walk Through Tutorial 3(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-3_for-Fuji.md)
+- [EdgeX API Walk Through Tutorial 3](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-3_for-Fuji.md)
 
-- [EdgeX API Walk Through Tutorial 4(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-4_for-Fuji.md)
+- [EdgeX API Walk Through Tutorial 4](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-4_for-Fuji.md)
 
-- [EdgeX API Walk Through Tutorial 5(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-5_for-Fuji.md)
+- [EdgeX API Walk Through Tutorial 5](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-5_for-Fuji.md)
 
-- [EdgeX API Walk Through Tutorial 6(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-6_for-Fuji.md)
+- [EdgeX API Walk Through Tutorial 6](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-6_for-Fuji.md)
 
-- [EdgeX API Walk Through Tutorial 7(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-7_for-fuji.md)
+- [EdgeX API Walk Through Tutorial 7](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-7_for-fuji.md)
 
-- [EdgeX API Walk Through Tutorial 8 FINAL(for fuji)](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-8_for-fuji_FINAL.md)
+- [EdgeX API Walk Through Tutorial 8 FINAL](https://github.com/174cm/TIL/blob/master/EdgeX/EdgeX_API-Walk-Through-Tutorial-8_for-fuji_FINAL.md)
 
 ### Engineer Information Processing
 
