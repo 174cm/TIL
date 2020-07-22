@@ -77,10 +77,12 @@ Security
 
 Smart Factory
 --
+
+- __OPC-UA(Open Platform Communication Unified Architecture)__: OPC는 다양한 제조업체의 장치를 통합하기 위한 국제 산업 자동화 표준 규격이며, OPC-UA는 OPC에서 더 발전한 산업용 표준 프로토콜을 뜻합니다. 
 - __IIoT (Industrial Internet of Things)__: 기존의 IoT에서 산업용에 특화된 사물인터넷 기술을 의미한다. 
 - __HMI(Human Machine Interface)__: 기계 제어에 사용되는 데이터를 인간에게 친숙한 형태로 변환하여 보여주는 장치. 이것을 통해 관리자가 해당 공정을 감시하고 제어하게 된다.
 - __SCADA(Supervisory Control And Data Acquisition)__: 산업 공정/기반 시설/설비를 바탕으로 한 작업공정을 감시하고 제어하는 컴퓨터 시스템을 말한다.
-
+- __MACHBASE__: 마크베이스는 스마트팩토리의 설비 센서데이터 처리에 최적화된 데이터베이스이다. 반도체, 제철, 제지, 제약, 등 제조업의 생산 설비에서 발생하는 센서 데이터를 수집, 저장, 조회, 분석하는 다양한 활용사례가 있다. 
 Technique
 --
 
